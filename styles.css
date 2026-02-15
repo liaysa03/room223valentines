@@ -63,9 +63,15 @@ h1 {
 .loveletterimg {
     display: block;
     margin:auto;
-    width: 25%;
+    width: 50%;
 }
-
+@media (min-width:600px) {
+    .loveletterimg{
+        width:25%;
+        display: block;
+        margin: auto;
+    }
+}
 p {
     font-family: "Pixelify Sans";
     text-align: center;
@@ -88,6 +94,7 @@ p {
     border: 5px solid black;
     margin: 10%;
     background-color:rgb(227, 173, 173);
+    overflow-wrap:break-word;
 
 }
 
