@@ -110,7 +110,7 @@ p {
 pre {
     font-family: "Pixelify Sans";
     letter-spacing: 1px;
-    overflow-x:auto;
+    overflow-y:auto;
     white-space: pre;
 }
 
