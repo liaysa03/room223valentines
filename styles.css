@@ -118,6 +118,7 @@ pre {
 .arrowbutton:hover {
     transform: scale(1.2);
 }
+@media (min-width:600px) {
 img {
     display:block;
     border-radius: 10px;
@@ -125,7 +126,11 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
+}
+img {
+    display:block;
+    max-width: 100%;
+}
 .end-message {
     text-align: center;
     border: 5px solid black;
