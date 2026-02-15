@@ -110,7 +110,8 @@ p {
 pre {
     font-family: "Pixelify Sans";
     letter-spacing: 1px;
-    overflow-wrap:break-word;
+    overflow-x:auto;
+    white-space: pre;
 }
 
 .button_rows {
